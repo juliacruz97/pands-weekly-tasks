@@ -1,3 +1,3 @@
 with open("romeo-and-juliet.txt", "r") as arquivo:
-    conteudo = arquivo.read()
-    print(conteudo)
+    romeo-and-juliet.txt = arquivo.read()
+    print(romeo-and-juliet.txt)
