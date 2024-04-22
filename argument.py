@@ -1,5 +1,7 @@
-nDe_vezes = 0
-for letter in romeo-and-juliet :
-    if letter == "b" :
-        nDe_vezes = nDe_vezes +1
-        print (nDe_vezes)
+file = open ("romeo_and_juliet.txt","r")
+nletter=0
+content = file.read()
+for letter in content:
+    if letter == "b" or "B":
+        nletter = nletter + 1
+print('In romeo_and_juliet there are {} letter b/B '.format(nletter))
