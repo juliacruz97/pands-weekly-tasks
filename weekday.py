@@ -1,5 +1,5 @@
-from datetime import date
-# Extract today date
+from datetime import date 
+# Extract today date from library
 today = date.today()
 
 if today.weekday() == 0:
