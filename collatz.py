@@ -5,19 +5,29 @@
 # Have the program end if the current value is one.
 # Author: Julia Cruz
 
-def collatz (num):
-    if (num % 2==0):
-       return num//2
-    elif (num % 2 == 1):
-       return num * 3 + 10
-    else: 
-        print ('It didnt work')
-        return None  
-print ('Enter a num.')
-num = (int(input()))
-print('Collatz Sequence:')   
-print(num)
-while (num != 1) :
-  num = collatz(num)
-print (num) 
-print (num)
+import sys  # The line of code "import sys" in Python means that the sys module is being imported.
+
+def collatz (num): # def: It's the keyword used in Python to define a function. collatz: It's the name of the function being defined.
+    if num == 1:
+       return 1
+    if num % 2 == 0:
+       print(num//2)
+       return collatz (num//2)
+    else:
+       print(3 * num + 1)
+       return collatz (3 * num + 1)
+    
+run = True
+while run:
+    try:
+       ans = int(input('Input any positive number:  '))
+    except:
+       print("You must input an integer. ")
+       continue
+    if ans == 0:
+       sys.exit()
+    else:
+       while collatz (ans) !=1:
+          collatz(ans)
+       if collatz(ans) ==1:
+          continue
