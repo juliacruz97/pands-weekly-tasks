@@ -4,7 +4,7 @@
 # with account numbers of any length (yes that is a vague requirement, 
 # comment your assumptions).
 # accounts_0py program 
-# Author = Julia Cruz
+# Author = Julia Cruz.
 
 account_number = (input('Please enter digit account number: '))
 # Basically, this line of code allows the user to provide an account number
