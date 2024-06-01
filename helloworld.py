@@ -1,5 +1,5 @@
 # Hello World "
 # This program just print  Hello World"
-# Autor Julia Cruz.
+# Autor: Julia Cruz
 
 print('Hello, world!')
