@@ -2,7 +2,7 @@
 # and outputs the account number with only the last 4 digits showing 
 # (and the first 6 digits replaced with Xs).
 # accounts.py program name
-# Author = Julia Cruz
+# Author = Julia Cruz.
 
 account_number = (input('Please enter an 10 digit account number: '))[0:10]
 # Take the first 10 characters of the user's input, 

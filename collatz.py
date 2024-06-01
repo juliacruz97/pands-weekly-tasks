@@ -3,7 +3,7 @@
 # At each step calculate the next value by taking the current value and, 
 # if it is even, divide it by two, but if it is odd, multiply it by three and add one.
 # Have the program end if the current value is one.
-# Author: Julia Cruz
+# Author: Julia Cruz.
 
 import sys  # The line of code "import sys" in Python means that the sys module is being imported.
 

@@ -16,4 +16,4 @@ account_number = (input('Please enter digit account number: '))
 
 
 print(account_number)
-#I printed the quantity of numbers that was entered by the user
+#I printed the quantity of numbers that was entered by the user.

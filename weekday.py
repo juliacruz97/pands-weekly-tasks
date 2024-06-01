@@ -1,5 +1,5 @@
 #Weekday.py is a program that  that outputs
-# whether or not today is a weekday
+# whether or not today is a weekday.
 #Author: Julia Cruz
 from datetime import date 
 # Extract today date from library
