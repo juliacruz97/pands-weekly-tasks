@@ -12,7 +12,7 @@ account_number = (input('Please enter digit account number: '))
 # variable account_numberfor later use in the program.
 # The user will enter the number of numbers without limits and will 
 # show all the numbers entered because the limiter [0:10] 
-# was not included in the programming line
+# was not included in the programming line.
 
 
 print(account_number)
