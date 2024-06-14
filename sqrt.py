@@ -6,11 +6,11 @@
 # print(sqrt)
 
 
+
 x = float(input('imput the number to get your square root: '))
-n = x*x
-q = x**2 
+sr = x**2 
+sr >=4;
+srnp= x + (sr-4)/(2*x)
 
-sr= (n (n-2))
-jsr = (2 * (n-2)**2)
 
-print(sr)
+print(srnp)
